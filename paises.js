@@ -19,7 +19,7 @@ class FiltroPaises {
       return this;
     })();
   }
-  // ¿?
+  // ?
 
   addFiltro(name, fnFiltro) {
     this.filtros.push({ name, fnFiltro });

@@ -28,9 +28,9 @@ class FiltroPaises {
     return this.filtros;
   }
 
-  setFormato(includePoputlation) {
+  setFormato(includePopulation) {
     this.formato = this.defaultFormato;
-    if (includePoputlation)
+    if (includePopulation)
       this.formato = (e) => {
         return { ...this.defaultFormato(e), poblacion: e.population };
       };
